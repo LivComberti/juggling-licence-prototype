@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Question page
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="/juggling-balls">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        Sorry, you are not eligible for a juggling licence.
+      </h1>
+
+      <p>Maybe you could learn to be an acrobat instead?</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPHy-VKstVuB9iW0Y1xYu4AKRv_JvhmTAkpQ62bILTQYm2tAur" alt="Acrobat">
+      <p>Here's a link to acrobat training school <a href="/url/of/onward/page">acrobat training school</a>.</p>
+
+    </div>
+  </div>
+
+{% endblock %}
